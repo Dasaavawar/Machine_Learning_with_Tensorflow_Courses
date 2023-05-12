@@ -1,10 +1,8 @@
-# freeCodeCamp - Machine Learning with Tensorflow - Courses
+# freeCodeCamp - Machine Learning with Tensorflow - Courses - II - How Neural Networks Work
 
 
-## Machine Learning with Tensorflow
+#  2. Courses - How Neural Networks Work
 
-Machine learning has many practical applications that you can use in your projects or on the job.
+Neural networks are at the core of what we call artificial intelligence today. But historically they've been hard to understand. Especially for beginners in the machine learning field.
 
-In the Machine Learning with Python Certification, you'll use the TensorFlow framework to build several neural networks and explore more advanced techniques like natural language processing and reinforcement learning.
-
-You'll also dive into neural networks, and learn the principles behind how deep, recurrent, and convolutional neural networks work.
+Even if you are completely new to neural networks, these video courses by Brandon Rohrer will get you comfortable with the concepts and the math behind them.
