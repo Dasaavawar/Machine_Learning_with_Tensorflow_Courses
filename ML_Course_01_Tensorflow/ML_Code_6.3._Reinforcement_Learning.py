@@ -1,26 +1,27 @@
-#Reinforcement Learning
+# Machine Learning with TensorFlow - Code 6.3. - Reinforcement Learning
 
-#Putting it Together
 
-#Imports and Setup
+# Putting it Together
+
+# Imports and Setup
 import gym
 import numpy as np
 import time
 
-#Now that we know how to do some basic things we can combine these together to create our Q-Learning algorithm,
+# Now that we know how to do some basic things we can combine these together to create our Q-Learning algorithm,
 env = gym.make('FrozenLake-v0')
 STATES = env.observation_space.n
 ACTIONS = env.action_space.n
 
 Q = np.zeros((STATES, ACTIONS))
 
-EPISODES = 1500 #How many times to run the enviornment from the beginning
-MAX_STEPS = 100 #max number of steps allowed for each run of enviornment
+EPISODES = 1500 # how many times to run the enviornment from the beginning
+MAX_STEPS = 100 # max number of steps allowed for each run of enviornment
 
-LEARNING_RATE = 0.81 #Learning rate
+LEARNING_RATE = 0.81 # learning rate
 GAMMA = 0.96
 
-#If you want to see training set to true
+# If you want to see training set to true
 RENDER = False
 
 epsilon = 0.9
@@ -48,13 +49,13 @@ for episode in range(EPISODES):
     if done: 
       rewards.append(reward)
       epsilon -= 0.001
-      break #Reached goal
+      break # reached goal
 
 print(Q)
 print(f"Average reward: {sum(rewards)/len(rewards)}:")
-#And now we can see our Q values!
+# and now we can see our Q values!
 
-#We can plot the training progress and see how the agent improved
+# We can plot the training progress and see how the agent improved
 import matplotlib.pyplot as plt
 
 def get_average(values):
