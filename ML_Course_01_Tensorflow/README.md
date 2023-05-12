@@ -1,10 +1,8 @@
-# freeCodeCamp - Machine Learning with Tensorflow - Courses
+# freeCodeCamp - Machine Learning with Tensorflow - Courses - I - TensorFlow
 
 
-## Machine Learning with Tensorflow
+## 1. Courses - TensorFlow
 
-Machine learning has many practical applications that you can use in your projects or on the job.
+TensorFlow is an open source framework that makes machine learning and neural networking easier to use.
 
-In the Machine Learning with Python Certification, you'll use the TensorFlow framework to build several neural networks and explore more advanced techniques like natural language processing and reinforcement learning.
-
-You'll also dive into neural networks, and learn the principles behind how deep, recurrent, and convolutional neural networks work.
+The following video course was created by Tim Ruscica, also known as “Tech With Tim”. It will help you to understand TensorFlow and some of its powerful capabilities.
